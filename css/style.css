@@ -1,0 +1,97 @@
+#wrap {}
+
+#earthworm {
+
+    width: 300px;
+    height: 600px;
+    margin:auto;
+    background-color: #dcdcdc;
+    position: relative;
+
+
+}
+
+#earthworm .up {
+
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    opacity: 0;
+}
+
+#earthworm:hover .up {
+
+    transition: all 1s ease-in-out;
+    opacity: 1;
+    top: 90px;
+    left: 120px;
+}
+
+#earthworm .donw {
+
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+
+}
+
+#earthworm .wormy {
+
+    position: absolute;
+    top: 90px;
+    left: 180px;
+
+} 
+
+#earthworm .wormy li {
+
+    display: block;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    border: 1px solid #fff;
+    
+
+}
+
+
+#earthworm:hover .wormy  {
+
+    transition: all 5s ease-in-out;
+    top: 270px;
+    left: 180px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
