@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">   
+    <link rel="stylesheet" href="fa/css/fontawesome-all.min.css"  />
+    <title>Document</title>
+</head>
+<style>
+    #wrap{
+        width: 375pt;
+        height: 667pt;
+    }
+    #container{
+        width: 100%;
+    }
+    #m-header{
+        width: 100%;
+        height: 50pt;
+        background: #0288D1;
+        position: relative;
+    }
+    #m-header h2{
+        color: #fff;
+        font-size: 25pt;
+        line-height: 50pt;
+        text-align: center;
+    }
+    #m-header p{
+        position: absolute;
+        top: 0pt;
+        font-size: 40pt;
+    }
+    #m-header p:nth-of-type(2) {
+        right: 10pt;
+    }
+    #m-header ul {
+        position: absolute;
+        top: 40pt;
+        left: 50%;
+        margin-left: -32.5pt;
+    }
+    #m-header ul li {
+        width: 10pt;
+        height: 10pt;
+        background: #fff;
+        border-radius: 50%;
+        margin-right: 15pt;
+        float: left;
+    }
+    #m-header ul li.on {
+        background: #000;
+    }
+    #content{}
+    .set{}
+    .set li a{
+        display: block;
+        width: 100%;
+        height: 80pt;
+        border-bottom: 1px solid #dcdcdc;
+        position: relative;
+    }
+    .set li a p {
+        float: left;
+        font-size: 25pt;
+        margin-right: 35pt;
+        line-height: 80pt;
+    }
+    .set li a p:nth-child(1) {
+        font-size: 40pt;
+        margin-left: 10pt;
+    }
+    .set li a p:nth-child(3) {
+        float: right;
+        margin-right: 10pt;
+    }
+    
+    #content .logout{
+        width: 280pt;
+        height: 60pt;
+        background: red;
+        border-radius: 30pt;
+        text-align: center;
+        line-height: 60pt;
+        font-size: 40pt;
+        margin-left: 47.5pt;
+        margin-top: 30pt;
+        color:#fff;
+    }
+</style>
+<body>
+    <div id="wrap">
+        <div id="container">
+            <div id="m-header">
+                <h2>More</h2>
+                <ul>
+                    <li class="on"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p><i class="fas fa-address-card"></i></p>
+                <p><i class="fas fa-arrow-circle-right"></i></p>
+            </div>
+            <div id="content">
+                <ul class="set">
+                    <li>
+                        <a href="#">
+                            <p><i class="fas fa-address-book"></i></p>
+                            <p>Status Message</p>
+                            <p><i class="fas fa-arrow-circle-right"></i></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p><i class="fas fa-address-book"></i></p>
+                            <p>Status Message</p>
+                            <p><i class="fas fa-arrow-circle-right"></i></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p><i class="fas fa-address-book"></i></p>
+                            <p>Status Message</p>
+                            <p><i class="fas fa-arrow-circle-right"></i></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p><i class="fas fa-address-book"></i></p>
+                            <p>Status Message</p>
+                            <p><i class="fas fa-arrow-circle-right"></i></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p><i class="fas fa-address-book"></i></p>
+                            <p>Status Message</p>
+                            <p><i class="fas fa-arrow-circle-right"></i></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p><i class="fas fa-address-book"></i></p>
+                            <p>Status Message</p>
+                            <p><i class="fas fa-arrow-circle-right"></i></p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="logout">Logout</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
